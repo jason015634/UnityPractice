@@ -1,0 +1,309 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.19f1 (244b723c30a6) revision 2378610'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit Professional' Language: 'ko' Physical Memory: 130910 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+E:\unity\2022.3.19f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+C:/Users/user/Documents/GitHub/UnityPractice/3D Action
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+59179
+Successfully changed project path to: C:/Users/user/Documents/GitHub/UnityPractice/3D Action
+C:/Users/user/Documents/GitHub/UnityPractice/3D Action
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [24024] Host "[IP] 172.16.1.81 [Port] 0 [Flags] 2 [Guid] 3012070404 [EditorId] 3012070404 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-R3NEADA) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [24024] Host "[IP] 172.16.1.81 [Port] 0 [Flags] 2 [Guid] 3012070404 [EditorId] 3012070404 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-R3NEADA) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 31 workers.
+Refreshing native plugins compatible for Editor in 2.95 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.19f1 (244b723c30a6)
+[Subsystems] Discovering subsystems at path E:/unity/2022.3.19f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/user/Documents/GitHub/UnityPractice/3D Action/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 4060 Ti (ID=0x2805)
+    Vendor:   NVIDIA
+    VRAM:     16123 MB
+    Driver:   31.0.15.4633
+Initialize mono
+Mono path[0] = 'E:/unity/2022.3.19f1/Editor/Data/Managed'
+Mono path[1] = 'E:/unity/2022.3.19f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'E:/unity/2022.3.19f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56772
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: E:/unity/2022.3.19f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: E:/unity/2022.3.19f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001488 seconds.
+- Loaded All Assemblies, in  0.321 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.155 seconds
+Domain Reload Profiling: 476ms
+	BeginReloadAssembly (133ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (0ms)
+	RebuildCommonClasses (28ms)
+	RebuildNativeTypeToScriptingClass (6ms)
+	initialDomainReloadingComplete (31ms)
+	LoadAllAssembliesAndSetupDomain (123ms)
+		LoadAssemblies (134ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (120ms)
+			TypeCache.Refresh (120ms)
+				TypeCache.ScanAssembly (106ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (155ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (122ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (1ms)
+			ProcessInitializeOnLoadAttributes (82ms)
+			ProcessInitializeOnLoadMethodAttributes (31ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.604 seconds
+Refreshing native plugins compatible for Editor in 2.22 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.433 seconds
+Domain Reload Profiling: 1038ms
+	BeginReloadAssembly (141ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (17ms)
+	RebuildCommonClasses (20ms)
+	RebuildNativeTypeToScriptingClass (6ms)
+	initialDomainReloadingComplete (22ms)
+	LoadAllAssembliesAndSetupDomain (415ms)
+		LoadAssemblies (301ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (205ms)
+			TypeCache.Refresh (157ms)
+				TypeCache.ScanAssembly (140ms)
+			ScanForSourceGeneratedMonoScriptInfo (44ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (434ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (326ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (60ms)
+			ProcessInitializeOnLoadAttributes (243ms)
+			ProcessInitializeOnLoadMethodAttributes (13ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (4ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 2.18 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3092 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 32 unused Assets / (57.0 KB). Loaded Objects now: 3553.
+Memory consumption went from 124.0 MB to 123.9 MB.
+Total: 2.797700 ms (FindLiveObjects: 0.277800 ms CreateObjectMapping: 0.073600 ms MarkObjects: 2.379000 ms  DeleteObjects: 0.066700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 114638.358893 seconds.
+  path: Assets/RPGPP_LT/Models/Nature/rpgpp_lt_flower_01.fbx
+  artifactKey: Guid(7d350a824190e0647822f95e9f7bbc97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPGPP_LT/Models/Nature/rpgpp_lt_flower_01.fbx using Guid(7d350a824190e0647822f95e9f7bbc97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ace0c302773c6aa04119ae577c0b0ec5') in 0.175146 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/RPGPP_LT/Models/Nature/rpgpp_lt_cloud_01.fbx
+  artifactKey: Guid(b36c73269c1668c4bbfb76bf41a74b15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPGPP_LT/Models/Nature/rpgpp_lt_cloud_01.fbx using Guid(b36c73269c1668c4bbfb76bf41a74b15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '935184f1586267d9206d4fab51db8952') in 0.012705 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/RPGPP_LT/Models/Nature/rpgpp_lt_sky_01.fbx
+  artifactKey: Guid(092e8eab260eaf84e890e2e5dbc513b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPGPP_LT/Models/Nature/rpgpp_lt_sky_01.fbx using Guid(092e8eab260eaf84e890e2e5dbc513b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd528a5b4e563ee07d47ea150d6de2127') in 0.012492 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/RPGPP_LT/Models/Nature/rpgpp_lt_grass_small_01b.fbx
+  artifactKey: Guid(60f048e3ccfd7d0498e095661396963b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPGPP_LT/Models/Nature/rpgpp_lt_grass_small_01b.fbx using Guid(60f048e3ccfd7d0498e095661396963b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31e3ab5d5ef1c790513be34e54403640') in 0.012263 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/RPGPP_LT/Models/Nature/rpgpp_lt_plant_02.fbx
+  artifactKey: Guid(2ef20853860a4694c9c08c312d121b56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPGPP_LT/Models/Nature/rpgpp_lt_plant_02.fbx using Guid(2ef20853860a4694c9c08c312d121b56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfb226e85a9dffadf7b08489be3d15ca') in 0.012392 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/RPGPP_LT/Models/Nature/rpgpp_lt_rock_01.fbx
+  artifactKey: Guid(305f277e1529222439b495a441de2f0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPGPP_LT/Models/Nature/rpgpp_lt_rock_01.fbx using Guid(305f277e1529222439b495a441de2f0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c80fe0cb61d797990c34fd605f69ca3b') in 0.012115 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/RPGPP_LT/Models/Nature/rpgpp_lt_terrain_grass_01.fbx
+  artifactKey: Guid(264414c28ea0fbb41b924fd17d9228b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPGPP_LT/Models/Nature/rpgpp_lt_terrain_grass_01.fbx using Guid(264414c28ea0fbb41b924fd17d9228b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccaedb9471b68a3eba873ab34b42b5b0') in 0.012181 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/RPGPP_LT/Models/Nature/rpgpp_lt_hill_small_01.fbx
+  artifactKey: Guid(3602432658d7f1540978cbbd6875ad2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPGPP_LT/Models/Nature/rpgpp_lt_hill_small_01.fbx using Guid(3602432658d7f1540978cbbd6875ad2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d805e7125afe19fa59561857d1dd40a') in 0.011981 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/RPGPP_LT/Models/Nature/rpgpp_lt_terrain_grass_02.fbx
+  artifactKey: Guid(a90ec1b8be596134b912428bfce1f226) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPGPP_LT/Models/Nature/rpgpp_lt_terrain_grass_02.fbx using Guid(a90ec1b8be596134b912428bfce1f226) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e32d7c7b1830f5525752288f7f6636fc') in 0.011778 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/RPGPP_LT/Models/Nature/rpgpp_lt_rocks_tiny_01.fbx
+  artifactKey: Guid(2e716c43576f71b4aa87e6cb4ebeaeab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPGPP_LT/Models/Nature/rpgpp_lt_rocks_tiny_01.fbx using Guid(2e716c43576f71b4aa87e6cb4ebeaeab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c0cb01d2c62059f4d909132aee8af1d') in 0.011185 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/RPGPP_LT/Models/Nature/rpgpp_lt_hill_small_02.fbx
+  artifactKey: Guid(87dc0b67e5fe70f40a31e17b0c0058b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPGPP_LT/Models/Nature/rpgpp_lt_hill_small_02.fbx using Guid(87dc0b67e5fe70f40a31e17b0c0058b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3141a487e96273f288f0b94b8547327') in 0.011571 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/RPGPP_LT/Models/Nature/rpgpp_lt_tree_pine_01.fbx
+  artifactKey: Guid(58c79ebc04f48c74fa4869c3f7d941fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPGPP_LT/Models/Nature/rpgpp_lt_tree_pine_01.fbx using Guid(58c79ebc04f48c74fa4869c3f7d941fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb45c56dff8971e543eec1941f20cf04') in 0.011388 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/RPGPP_LT/Models/Nature/rpgpp_lt_tree_01.fbx
+  artifactKey: Guid(15977c94193725642b83e5c7be73b2e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPGPP_LT/Models/Nature/rpgpp_lt_tree_01.fbx using Guid(15977c94193725642b83e5c7be73b2e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c276ca590f197168272b61d072b7901') in 0.011216 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/RPGPP_LT/Models/Nature/rpgpp_lt_rock_small_02.fbx
+  artifactKey: Guid(7110966a22a1bd74c894def7bbb4b8cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPGPP_LT/Models/Nature/rpgpp_lt_rock_small_02.fbx using Guid(7110966a22a1bd74c894def7bbb4b8cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13bccde7a6dd74317923950b3105bbe2') in 0.011831 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 3.479269 seconds.
+  path: Assets/RPGPP_LT/Prefabs/Nature/Terrain/rpgpp_lt_terrain_grass_01.prefab
+  artifactKey: Guid(bdf8e7438a7816543998181bd3067573) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPGPP_LT/Prefabs/Nature/Terrain/rpgpp_lt_terrain_grass_01.prefab using Guid(bdf8e7438a7816543998181bd3067573) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cfaea9d8e078066ff5370c07de8f7ee') in 0.015023 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: 스레드 종료 또는 응용 프로그램 요청 때문에 I/O 작업이 취소되었습니다.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
